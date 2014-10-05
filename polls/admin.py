@@ -16,6 +16,9 @@ class PollAdmin(admin.ModelAdmin):
     list_display = ('preguntas', 'pub_fecha', 'was_published_recently')
 
     list_filter = ['pub_fecha']
+    search_fields = ['preguntas']
+
+
 
 
 

@@ -24,6 +24,10 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
+TEMPLATE_DIRS = (
+    '/path/to/django_proyect/mytemplates',# Cambiar esto al directorio que corresponda.
+)
+
 ALLOWED_HOSTS = []
 
 
